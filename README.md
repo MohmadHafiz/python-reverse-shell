@@ -18,7 +18,7 @@ lr = {"ht": "127.0.0.1","pt": 4444, "pr": False}; ah = {"ee": False,"ur": "r00t"
 for this mode, by default the user has 5 minute to stay idle it will disconnect from user when its more than 5 min
 
 ```
-# it = idle time
+# it = idle time, 300s = 5 min
 # ut = user time
 def __rr(c,b = 2048,rt = 0.2, it = 300, ut = 0):
         ut = time() # set user time
