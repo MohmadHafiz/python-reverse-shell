@@ -39,3 +39,9 @@ def __rr(c,b = 2048,rt = 0.2, it = 300, ut = 0):
         except socket.error:
                 return False
 ```
+
+# Todo
+-       able to create bind shell or reverse shell
+-       has auth function only for bind shell
+-       able to create persistent(root priv), execute on boot
+-       beacon function, sending http request to your server indicate that your target is alive and has your backdoor, this function is useful for persistentt mode
